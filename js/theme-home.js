@@ -25,15 +25,19 @@
 			$('.search-safari').hide(); 
 		});
 		/* if (checkWidths > 768){ */
-			var menu_offset_top = $('.main-header').outerHeight();    
+			var menu_offset_top = $('.main-header').outerHeight();  
+			
 			function processScroll() {
 				var scrollTop = $( window ).scrollTop();
-				if ((scrollTop >= menu_offset_top)&&checkWidths >= 768) {  
+				
+				if ((scrollTop >= menu_offset_top) && checkWidths >= 768) {  
 					$('.main-header').addClass('menu-fixed');        
 
-				} else if (scrollTop <= menu_offset_top) {         
+				} else if (scrollTop <= menu_offset_top) {    
+					console.log('Inn'); 
 					$('.main-header').removeClass('menu-fixed');     
 				}
+				
 			}
 			$( window ).scroll(function() {
 				processScroll();
