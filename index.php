@@ -21,10 +21,9 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:500,300,700,400' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Arimo:500,300,700,400' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:500,300,700,400' rel='stylesheet' type='text/css'>
-    <script src="js/angular.min.js"></script>
 </head>
 
-<body ng-app="">
+<body>
     <!--Header: Begin-->
     <header>
         <!--Top Header: Begin-->
